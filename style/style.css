@@ -17,7 +17,6 @@ body {
     border-radius: 5px;
 }
 
-
 /* Start Header Style */
 header {
     color: white;
@@ -42,7 +41,7 @@ header p {
     font-weight: 400;
     color: #FFFFFF;
 }
-/* End Header Section */
+/*-----------------------------End */
 
 /* Donate Today Section Start */
 main {
@@ -52,14 +51,12 @@ main {
 .primary-title {
     font-size: 45px;
     font-weight: 700;
-    text-align: center;
     margin-bottom: 20px;
 }
 .primary-para {
     font-size: 18px;
     font-weight: 400;
     color: #707070;
-    margin-bottom: 50px;
 }
 .donate-today {
     margin: 0 300px;
@@ -96,4 +93,94 @@ main {
     width: auto;
     height: 30px;
 }
-/* Donate Today Section End */
+/* ------------------------------End */
+
+/* Donate Plan Style */
+.donate-plan, .article-group{
+    margin: 130px 155px 0;
+}
+.plan-item-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    height: auto;
+    margin-top: 50px;
+}
+.plan-item {
+    padding: 55px 25px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.plan-item h3 {
+    font-size: 24px;
+    padding: 15px 0;
+}
+.plan-item-group .one {
+    background-color: #e9ffff;
+}
+.plan-item-group .two {
+    background-color: #fcedf2;
+}
+.plan-item-group .three {
+    background-color: #faf9e6;
+}
+/*------------------------------- End */
+
+/* Article Section Style */
+/* margin-top added line no: 102 */
+.poster-body-1, .poster-body-2 {
+    display: flex;
+    gap: 60px;
+    text-align: left !important;
+}
+.article-img {
+    width: 450px;
+    border-radius: 5px;
+}
+.poster-body-1 {
+    margin-bottom: 90px;
+}
+/*--------------------------------End */
+
+/* Footer Style */
+footer {
+    margin: 130px auto;
+    text-align: center;
+    width: 820px;
+}
+footer p {
+    margin: 0 90px;
+}
+.contact-body {
+    margin: 50px auto 0;
+    background-color: #fcedf2;
+    padding: 75px 190px;
+}
+.contact {
+    display: flex;
+    position: relative;
+}
+.contact .email {
+    width: 300px;
+    height: 49px;
+    border: none;
+    background-color: #e9e6e6;
+    border-radius: 5px 0 0 5px;
+}
+.email::placeholder {
+    font-size: 18px;
+    padding-left: 15px;
+}
+.contact .submit {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #ff004c;
+    border-radius: 0 5px 5px 0;
+    width: 130px;
+    height: 51px;
+    border: none;
+    margin-left: -10px;
+}
+/* It's never end Remember I'll back soon. */
