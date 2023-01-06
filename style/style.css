@@ -15,6 +15,13 @@ body {
     color: #FFFFFF;
     border-style: none;
     border-radius: 5px;
+    cursor: pointer;
+}
+.primary-btn:hover {
+    background-color: #ec0047;
+}
+.primary-btn:active {
+    background-color: #da0041;
 }
 
 /* Start Header Style */
@@ -162,6 +169,10 @@ footer {
     display: flex;
 }
 .contact .email {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    color: #535353;
     width: 300px;
     height: 49px;
     border: none;
@@ -182,5 +193,12 @@ footer {
     width: 130px;
     height: 51px;
     border: none;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: #ec0047;
+}
+.submit:active {
+    background-color: #da0041;
 }
 /* It's never end remember I'll back soon. */
