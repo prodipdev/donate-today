@@ -1,10 +1,22 @@
 * {
     font-family: 'Quicksand', sans-serif;
+    margin: 0;
 }
 body {
     max-width: 1440px;
     margin: 0 auto;
 }
+.primary-btn {
+    margin-top: 45px;
+    background-color: #ff004c;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border-style: none;
+    border-radius: 5px;
+}
+
 /* Start Header Style */
 header {
     color: white;
@@ -17,11 +29,17 @@ header {
     text-align: center;
 }
 header section {
-    padding: 160px 200px;
+    padding: 160px 300px;
 }
 header h1 {
+    font-weight: 700;
     font-size: 65px;
 }
 header p {
-    padding: 0 110px;
+    padding: 20px 100px 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
 }
+/* End Header Section */
+
