@@ -62,6 +62,9 @@ main {
     margin: 0 300px;
     text-align: center;
 }
+.donate-today p, .donate-plan > p, footer p {
+    margin: 0 120px;
+}
 .amount-item {
     color: #707070;
     display: flex;
@@ -111,7 +114,6 @@ main {
     text-align: left;
     border-radius: 5px;
 }
-
 .plan-item h3 {
     font-size: 24px;
     padding: 15px 0;
@@ -148,9 +150,6 @@ footer {
     margin: 130px auto;
     text-align: center;
     width: 820px;
-}
-footer p {
-    margin: 0 90px;
 }
 .contact-body {
     margin: 50px auto 0;
