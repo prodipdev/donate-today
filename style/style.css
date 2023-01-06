@@ -135,9 +135,11 @@ main {
     display: flex;
     gap: 60px;
     text-align: left !important;
+    align-items: center;
 }
 .article-img {
     width: 450px;
+    height: 400px;
     border-radius: 5px;
 }
 .poster-body-1 {
