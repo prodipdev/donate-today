@@ -16,6 +16,18 @@ body {
     border-style: none;
     border-radius: 5px;
 }
+.primary-title {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.primary-para {
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    margin-bottom: 50px;
+}
 
 /* Start Header Style */
 header {
@@ -43,3 +55,45 @@ header p {
 }
 /* End Header Section */
 
+/* Donate Today Section Start */
+main {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.donate-today {
+    margin: 0 300px;
+    text-align: center;
+}
+.amount-item {
+    color: #707070;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+.amount-item button {
+    font-size: 30px;
+    font-weight: 700;
+    width: 140px;
+    height: 125px;
+    background-color: #f8f8f8;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.amount-item .active {
+    color: #ff004c;
+    border: #ff004c solid 4px;
+    background-color: #ffe5ed;
+}
+.donate-today input {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    border: none;
+    width: auto;
+    height: 30px;
+}
+/* Donate Today Section End */
