@@ -74,7 +74,8 @@ main {
 }
 .amount-item {
     color: #707070;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     gap: 50px;
     align-items: center;
     justify-content: center;
@@ -141,7 +142,7 @@ main {
 .poster-body-1, .poster-body-2 {
     display: flex;
     gap: 60px;
-    text-align: left !important;
+    text-align: left;
     align-items: center;
 }
 .article-img {
@@ -167,6 +168,7 @@ footer {
 }
 .contact {
     display: flex;
+    justify-content: center;
 }
 .contact .email {
     font-size: 18px;
@@ -201,4 +203,148 @@ footer {
 .submit:active {
     background-color: #da0041;
 }
+
+.hide {
+    display: none;
+}
 /* It's never end remember I'll back soon. */
+
+/* Responsive Part */
+@media screen and (max-width: 576px) {
+    main {
+        padding: 0 10px;
+    }
+    section .primary-title, footer .primary-title {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    header section, header p {
+        padding: 0;
+    }
+    .article-group {
+        margin: 0;
+    }
+    section .primary-para, footer .primary-para {
+        margin: 0;
+        font-size: 16px;
+    }
+    .primary-btn, .donate-today, .donate-plan, footer, .contact-body {
+        margin: 15px 0px;
+    }
+    header h1{
+        font-size: 40px;
+    }
+    .amount-item {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .amount-item .end {
+        grid-column: 1 / -1;
+    }
+    .amount-item button {
+        height: 90px;
+        width: 100%;
+        font-size: 25px;
+    }
+    hr {
+        margin: 0 50px;
+    }
+    .article-group {
+        margin-top: 60px;
+    }
+    .article-group img {
+        max-height: 280px;
+        width: 100%;
+        background-size: cover;
+    }
+    .plan-item-group, .poster-body-1, .poster-body-2{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .plan-item {
+        padding: 5px 7px;
+    }
+    .poster-body-1 {
+        flex-direction: column-reverse;
+        margin-bottom: 40px;
+    }
+    footer {
+        width: 100%;
+    }
+    .contact-body {
+        padding:  25px 30px;
+    }
+    .contact .email {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    main {
+        padding: 0 10px;
+    }
+    section .primary-title, footer .primary-title {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    header section, header p {
+        padding: 0;
+    }
+    .article-group {
+        margin: 0;
+    }
+    section .primary-para, footer .primary-para {
+        margin: 0;
+        font-size: 16px;
+    }
+    .primary-btn, .donate-today, .donate-plan, footer, .contact-body{
+        margin: 30px 0px;
+    }
+    header h1{
+        font-size: 55px;
+    }
+    header p {
+        padding: 5px;
+    }
+    .amount-item {
+        grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+        gap: 25px;
+        padding: 20px;
+    }
+    .amount-item button {
+        height: 120px;
+        width: 100%;
+        font-size: 30px;
+    }
+    hr {
+        margin: 0 50px;
+    }
+    .plan-item-group {
+        flex-direction: column;
+    }
+    .plan-item {
+        padding: 30px;
+    }
+    .article-group {
+        margin-top: 90px;
+    }
+    .article-group img {
+        max-height: 400px;
+        width: 100%;
+        background-size: cover;
+    }
+    .plan-item-group, .poster-body-1, .poster-body-2{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .poster-body-1 {
+        flex-direction: column-reverse;
+        margin-bottom: 40px;
+    }
+    footer {
+        width: 100%;
+    }
+    .contact-body {
+        padding: 65px 190px;
+    }
+}
